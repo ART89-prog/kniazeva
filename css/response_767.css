@@ -102,16 +102,19 @@
         margin-top: 13px;
     }
     .header_bottom {
-        background-position: center 173px;
+        background-position: center -110px;
     }
     .header_bottom:before {
         height: 210px;
-        bottom: 0;
+        bottom: 130px;
     }
     .header_bottom-text {
         font-size: 15px;
         max-width: 185px;
         right: 0;
+    }
+    .header_bottom-text {
+        top: 350px;
     }
     .advantages_title {
         font-size: 16px;

@@ -283,26 +283,6 @@ header {
     padding: 33px 0 33px;
     position: relative;
 }
-header:before {
-    position: absolute;
-    content: "";
-    width: 528px;
-    height: 601px;
-    background: url(../images/header_bg1.svg);
-    left: 32px;
-    top: 197px;
-    z-index: 5;
-}
-header:after {
-    position: absolute;
-    content: "";
-    width: 653px;
-    height: 392px;
-    background: url(../images/header_bg2.svg);
-    right: 317px;
-    top: -68px;
-    z-index: 4;
-}
 .header_top {
     position: relative;
     display: flex;
