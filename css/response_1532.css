@@ -1,0 +1,26 @@
+@media print, (max-width: 1532px) {
+
+
+    .header_bottom-text {
+        top: 590px;
+        right: 20px;
+    }
+    .header_bottom-title {
+        font-size: 120px;
+    }
+    .callback_img {
+        right: -70px;
+    }
+    .callback_wrap {
+        width: calc(100% - 360px);
+    }
+    .advantages_img {
+        width: 452px;
+        height: 509px;  
+    }
+    .study ul li {
+        font-size: 19px;
+    }
+
+
+}

@@ -1,0 +1,185 @@
+@media (max-width: 479px) {
+
+
+    .study ul li {
+        width: 100%;
+        margin-left: 0;
+        min-height: auto;
+        padding: 0 32px 23px 32px;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: center;
+    }
+    .study ul {
+        margin-left: 0;
+    }
+    .study ul li span {
+        margin-top: -5px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .study ul li span:before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 3px;
+        background: #111010;
+        left: 50%;
+        top: 3px;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+    .callback_title.fw400 {
+        margin-bottom: 50px;
+        font-size: 40px;
+        line-height: 49px;
+    }
+    .callback_wrap {
+        padding: 120px 20px 82px;
+    }
+    .services_box.offline .services_item {
+        padding: 20px 20px 30px 20px;
+        min-height: 292px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 344px;
+    }
+    .services_box.offline .services_item:hover {
+        padding: 20px 20px 30px 20px;
+        min-height: 292px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 344px;
+    }
+    .services_box {
+        margin: 0 auto 48px;
+    }
+    .callback_item-icon {
+        margin-top: 0;
+    }
+    .services_item {
+        padding: 20px 15px 30px;
+        background: url(../images/card8.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 314px;
+    }
+    .services_item:hover {
+        padding: 20px 15px 30px;
+        background: url(../images/card7.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 314px;
+    }
+    .header_bottom {
+        background: url(../images/header_bg_mob.png);
+        background-position: center 180px;
+        background-repeat: no-repeat;
+    }
+    header:after {
+        position: absolute;
+        content: "";
+        width: 393px;
+        height: 1031px;
+        top: 0px;
+        left: 0;
+        background: url(../images/header_bg_mob2.png);
+    }
+    header::before {
+        display: none;
+    }
+    .advantages:before {
+        position: absolute;
+        content: "";
+        background: url(../images/advantages_bg_mob.png);
+        width: 393px;
+        height: 518px;
+        right: 0;
+        top: 57%;
+    }
+    .services {
+        position: relative;
+    }
+    .services:before {
+        position: absolute;
+        content: "";
+        background: url(../images/services_bg_mob.png);
+        width: 393px;
+        height: 518px;
+        left: 0;
+        top: -143px;
+        z-index: -1;
+    }
+    .faq {
+        padding-top: 120px;
+        position: relative;
+    }
+    .faq:before {
+        position: absolute;
+        content: "";
+        background: url(../images/faq_bg_mob.png);
+        width: 393px;
+        height: 518px;
+        left: 0;
+        bottom: -60px;
+        z-index: -1;
+    }
+    footer {
+        position: relative;
+    }
+    footer:before {
+        position: absolute;
+        content: "";
+        background: url(../images/footer_bg_mob.png);
+        width: 393px;
+        height: 495px;
+        right: 0;
+        top: -220px;
+    }
+    .accordion_item.active .accordion_item-title {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    .accordion_item-head {
+        padding: 20px 0 23px;
+    }
+    .accordion_item.active .accordion_item-head {
+        border-bottom: none;
+        padding-bottom: 23px;
+        border-bottom: 1px solid #331212;
+    }
+    .accordion_item.active .accordion_item-icon-minus {
+        margin-top: -20px;
+    }
+    .services_img1 img {
+        width: 300px;
+        height: 569px;
+    }
+    .services_img2 img {
+        width: 300px;
+        height: 481px;
+    }
+    .callback_wrap {
+        background: url(../images/callback_bg_mob2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        border-radius: 10px;
+    }
+    .callback {
+        background: none;
+    }
+    .callback_arrow img {
+        width: 12px;
+    }
+    .callback_arrow {
+        top: 80px;
+    }
+
+
+  
+
+   
+}

@@ -1,0 +1,169 @@
+@media print, (max-width: 1023px) {
+ 
+    .callback_wrap {
+        display: flex;
+        align-items: center;
+    }
+    .callback_items {
+        flex-direction: column;
+        width: calc(100% - 200px);
+        margin-left: 0;
+    }
+    .callback_items > * {
+        margin-left: 0;
+        width: 100%;
+    }
+    .callback_item + .callback_item {
+        margin-top: 22px;
+    }
+    .advantages_img {
+        width: 300px;
+        height: 338px;
+    }
+    .advantages ul li {
+        font-size: 16px;
+        line-height: 21px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .study ul {
+        flex-wrap: wrap;  
+        margin-bottom: -20px;      
+    }
+    .study ul li {
+        width: calc(100%/3 - 21px);
+        margin-bottom: 20px;
+    }
+    .callback_item-title {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 4px;
+    }
+    .callback_item-text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .callback_item-icon img {
+        width: 40px;
+    }
+    .callback_item-icon {
+        margin-top: 0;
+    }
+    .callback_item-info {
+        margin-right: 12px;
+    }
+    .callback_items > * {
+        padding: 20px 12px;
+        border-radius: 19px;
+        justify-content: space-between;
+    }
+    .swiper-button-prev {
+        width: 40px;
+        height: 40px;
+    }
+    .swiper-button-prev .icon {
+        width: 18px;
+        height: 27px;
+    }
+    .swiper-button-next {
+        width: 40px;
+        height: 40px;
+    }
+    .swiper-button-next .icon {
+        width: 18px;
+        height: 27px;
+    }
+
+    .services_item-name {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .services_item-tarif {
+        font-size: 40px;
+        line-height: 49px;
+        margin-bottom: 20px;
+    }
+    .services_item-tarif img {
+        width: 25px;
+    }
+    .services_item-price {
+        font-size: 35px;
+        line-height: 42px;
+        margin-bottom: 10px;
+    }
+    .services_item ul li {
+        font-size: 14px;
+    }
+    .services_item {
+        min-height: 524px;
+        width: 314px;
+        background-size: contain;
+    }
+    .services_item:hover {
+        min-height: 524px;
+        width: 314px;
+        background-size: contain;  
+    }
+    .services_item a {
+        font-size: 14px;
+        line-height: 17px;
+        width: 247px;
+        margin: 0 auto;
+    }
+    .services_item-text {
+        font-size: 13px;
+        margin-top: 4px;
+    }
+    .services_item-title {
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .services_item {
+        padding: 20px 20px 30px;
+    }
+    .services_item:hover {
+        padding: 20px 20px 30px;
+    }
+    .services_box.offline .services_item a {
+        width: 274px;
+    }
+    .services_box.offline .services_item-title {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 0;
+    }
+    .services_box.offline .services_item {
+        padding: 20px 20px 30px;
+        min-height: 320px;
+    }
+    .services_box.offline .services_item-bottom {
+        height: auto;
+    }
+    .header_bottom:before {
+        bottom: 75px;
+    }
+    .services_img1 img {
+        width: 400px;
+        height: 759px;
+    }
+    .services_img2 img {
+        width: 400px;
+        height: 641px;
+    }
+
+    
+
+    
+
+
+
+
+
+
+
+
+    
+}
