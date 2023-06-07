@@ -872,6 +872,7 @@ body.menu_open {
 }
 .swiper-slide img {
     border-radius: 25px;
+    width: 100%;
 }
 .swiper-button-prev {
     left: 0;
